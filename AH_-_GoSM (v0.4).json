@@ -1,0 +1,2788 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AHGoSM",
+				"abbreviation": "AHGoSM",
+				"full": "AH - GoSM",
+				"url": "",
+				"authors": [
+					"AH"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1605370999,
+		"dateLastModified": 1605370999
+	},
+	"monster": [
+		{
+			"name": "Shang Tsung",
+			"shortName": "Shang Tsung",
+			"source": "AHGoSM",
+			"level": 20,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "14d6 + 6d8",
+				"average": 76
+			},
+			"speed": {
+				"walk": 55
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"cha": "+9",
+				"con": "+8",
+				"wis": "+2",
+				"int": "+1",
+				"dex": "+5",
+				"str": "+2"
+			},
+			"skill": {
+				"arcana": "+6",
+				"deception": "+9",
+				"persuasion": "+9",
+				"religion": "+6",
+				"insight": "+7",
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"devilsight 120 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Abyssal",
+				"Infernal"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Shang-Tsung is a 14th-level spellcaster that uses Charisma as his spellcasting ability (spell save {@dc 17}; +9 to hit with spell attacks). Shang-Tsung knows the following spells from the sorcerer’s spell list:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell chill touch}",
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell true strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell detect magic}",
+								"{@spell disguise self}",
+								"{@spell false life}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell haste}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"Placeholder"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"Placeholder"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell disintegrate}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell plane shift}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell shapechange}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sorcery Points (14/long rest) - Metamagic",
+					"entries": [
+						"Shang-Tsung may choose to expend sorcery points to empower his spell casting abilities.",
+						"- Subtle Spell. When you Cast a Spell, you can spend 1 sorcery point to cast it without any somatic or verbal Components.",
+						"- Quickened Spell. When Shang-Tsung casts a spell that has a casting time of 1 action, he can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.",
+						"- Twinned Spell. When Shang-Tsung casts a spell that targets only one creature and doesn’t have a range of self, they can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell’s current level."
+					]
+				},
+				{
+					"name": "Unarmed Savant",
+					"entries": [
+						"Shang-Tsung’s unarmed strike damage increases by one step (to {@dice 1d8}) due to his soburi heritage and he gains proficiency in the Athletics skill."
+					]
+				},
+				{
+					"name": "Stance of the Waning Moon (2)",
+					"entries": [
+						"Shang-Tsung’s unarmed strikes deal an extra {@damage 1d6} necrotic damage (this does not multiply on a critical hit) and he has resistance to necrotic damage."
+					]
+				},
+				{
+					"name": "Strength of the Grave (1/long rest)",
+					"entries": [
+						"Whenever damage reduces Shang-Tsung to 0 hit points, he can make a Constitution saving throw ({@dc 5} + the damage taken). On a success, he instead drops to 1 hit point. Shang-Tsung cannot use this feature if he is reduced to 0 hit points by radiant damage or by a critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shadow Walk",
+					"entries": [
+						"When Shang-Tsung is in dim light or darkness, as a bonus action, he can magically teleport up to 120 feet to an unoccupied space he can see that is also in dim light or darkness."
+					]
+				},
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"Shang-Tsung attacks twice. In addition, when Shang-Tsung uses the Attack action with an unarmed strike or a monk weapon on his turn, he can make one unarmed strike as a bonus action."
+					]
+				},
+				{
+					"name": "Unarmed.",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@dice 1d8 + 4} magical bludgeoning damage plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Soul Steal",
+					"entries": [
+						"Shang Tsung targets one creature that it can see within 10 feet of it. The target must succeed on a {@dc 17} Constitution saving throw or take 28 ({@damage 8d6}) necrotic damage, and Shang Tsung regains hit points equal to the total damage dealt."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Shang Tsung can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. Shang Tsung regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Energy Drain",
+					"entries": [
+						"Shang Tsung uses its' Soul Steal feature."
+					]
+				},
+				{
+					"name": "Shadow Meld",
+					"entries": [
+						"Shang Tsung melts into the darkness and is teleported to an unoccupied space up to 30 ft. away that he can see."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"I"
+			],
+			"damageTags": [
+				"N"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Juniper Glimmerstone",
+			"shortName": "Juniper",
+			"source": "AHGoSM",
+			"level": 12,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"special": ""
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 18,
+			"int": 16,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"str": "+6",
+				"dex": "+8",
+				"con": "+8",
+				"int": "+7",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"acrobatics": "+8",
+				"animal handling": "+5",
+				"arcana": "+5",
+				"athletics": "+4",
+				"deception": "+7",
+				"history": "+11",
+				"insight": "+5",
+				"intimidation": "+7",
+				"investigation": "+1",
+				"medicine": "+5",
+				"nature": "+5",
+				"perception": "+11",
+				"performance": "+13",
+				"persuasion": "+13",
+				"religion": "+5",
+				"sleight of hand": "+6",
+				"stealth": "+8",
+				"survival": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 21,
+			"languages": [
+				"Common",
+				"Gnomish"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"G"
+			]
+		},
+		{
+			"name": "Khardor Doldrum",
+			"shortName": "Khardor Doldrum",
+			"source": "AHGoSM",
+			"level": 12,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				20
+			],
+			"hp": {
+				"special": ""
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 20,
+			"int": 14,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"str": "+9",
+				"dex": "+7",
+				"con": "+9",
+				"int": "+6",
+				"wis": "+7",
+				"cha": "+5"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"animal handling": "+7",
+				"arcana": "+6",
+				"athletics": "+9",
+				"deception": "+5",
+				"history": "+6",
+				"insight": "+7",
+				"intimidation": "+5",
+				"investigation": "+6",
+				"medicine": "+7",
+				"nature": "+6",
+				"perception": "+7",
+				"performance": "+5",
+				"persuasion": "+5",
+				"religion": "+6",
+				"sleight of hand": "+7",
+				"stealth": "+7",
+				"survival": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages": [
+				"Common,",
+				"Dwarvish"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			]
+		},
+		{
+			"name": "Kuai Liang",
+			"shortName": "Kuai Liang",
+			"source": "AHGoSM",
+			"level": 12,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"special": ""
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 13,
+			"int": 12,
+			"wis": 12,
+			"cha": 19,
+			"save": {
+				"str": "+5",
+				"dex": "+7",
+				"con": "+1",
+				"int": "+1",
+				"wis": "+1",
+				"cha": "+1"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"animal handling": "+1",
+				"arcana": "+1",
+				"athletics": "+5",
+				"deception": "+4",
+				"history": "+1",
+				"insight": "+5",
+				"intimidation": "+8",
+				"investigation": "+1",
+				"medicine": "+1",
+				"nature": "+1",
+				"perception": "+1",
+				"performance": "+4",
+				"persuasion": "+4",
+				"religion": "+1",
+				"sleight of hand": "+3",
+				"stealth": "+7",
+				"survival": "+1"
+			},
+			"passive": 11
+		},
+		{
+			"name": "Remy Rousseau",
+			"shortName": "Remy Rousseau",
+			"source": "AHGoSM",
+			"level": 12,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"special": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 20,
+			"int": 20,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"str": "+2",
+				"dex": "+3",
+				"con": "+5",
+				"int": "+9",
+				"wis": "+7",
+				"cha": "+3"
+			},
+			"skill": {
+				"acrobatics": "+3",
+				"animal handling": "+3",
+				"arcana": "+5",
+				"athletics": "+2",
+				"deception": "+3",
+				"history": "+5",
+				"insight": "+7",
+				"intimidation": "+3",
+				"investigation": "+9",
+				"medicine": "+3",
+				"nature": "+5",
+				"perception": "+7",
+				"performance": "+3",
+				"persuasion": "+3",
+				"religion": "+5",
+				"sleight of hand": "+7",
+				"stealth": "+7",
+				"survival": "+3"
+			},
+			"passive": 17
+		},
+		{
+			"name": "Yorick Something",
+			"shortName": "Yorick Something",
+			"source": "AHGoSM",
+			"level": 12,
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"special": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 16,
+			"int": 13,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"str": "+1",
+				"dex": "+9",
+				"con": "+3",
+				"int": "+5",
+				"wis": "+7",
+				"cha": "+2"
+			},
+			"skill": {
+				"acrobatics": "+13",
+				"animal handling": "+3",
+				"arcana": "+1",
+				"athletics": "+1",
+				"deception": "+10",
+				"history": "+1",
+				"insight": "+3",
+				"intimidation": "+2",
+				"investigation": "+1",
+				"medicine": "+3",
+				"nature": "+1",
+				"perception": "+11",
+				"performance": "+2",
+				"persuasion": "+6",
+				"religion": "+1",
+				"sleight of hand": "+9",
+				"stealth": "+13",
+				"survival": "+3"
+			},
+			"passive": 21
+		},
+		{
+			"name": "Devil's Ride (Ice Devil's Custom Choppers)",
+			"shortName": "Devil's Ride",
+			"source": "AHGoSM",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					{
+						"tag": "Vehicle",
+						"prefix": "Large"
+					}
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				23,
+				{
+					"ac": 19,
+					"condition": "while motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "30 (damage threshold 5, mishap threshold 10)"
+			},
+			"speed": {
+				"walk": 120
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+2",
+				"dex": "+4",
+				"con": "+1",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"trait": [
+				{
+					"name": "Jump",
+					"entries": [
+						"If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement."
+					]
+				},
+				{
+					"name": "Stunt on Some Fools",
+					"entries": [
+						"On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC10 DEX check using the bike's Dexterity, the stunt is successful. After a successful stunt, the devilish engine screams with #hype and you increase your speed by 20 ft. until the end of your turn. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall {@condition prone} as the bike wipes out and comes to a dead stop. Refer to vehicle roll over rules or vehicle fall rules as applicable."
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Devil's Ride falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 Crew; grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Drive and steer the Devil's Ride."
+					]
+				},
+				{
+					"name": "Soul Furnace (HELM)",
+					"entries": [
+						"As a bonus action, you can feed 1 soul coin into the machine or use another source of souls to achieve one of the following effects:",
+						"-  increase the machine's speed by 20 ft. until the end of the character's next turn;",
+						"-  the next time a weapon on the war machine deals damage before the end of the character's next turn, it deals an additional 10 force damage; and",
+						"-  the infernal war machine regains 20 hit points."
+					]
+				},
+				{
+					"name": "Boring Stuff",
+					"entries": [
+						"As a bonus action you can cause the infernal war machine to take the Dash or Disengage action while the vehicle's engine is running."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sick Jukes",
+					"entries": [
+						"If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Dexterity saving throw."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Demon Grinder (Geryon's Red Custom)",
+			"shortName": "Demon Grinder",
+			"source": "AHGoSM",
+			"size": "G",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"special": "200 (damage threshold 10, mishap threshold 20)"
+			},
+			"speed": {
+				"walk": 100
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+4",
+				"dex": "+0",
+				"con": "+4",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Cargo Capacity",
+					"entries": [
+						"1 ton."
+					]
+				},
+				{
+					"name": "Carrying Capacity",
+					"entries": [
+						"4 medium creatures within the machine. 4 medium creatures outside the machine."
+					]
+				},
+				{
+					"name": "Crushing Wheels",
+					"entries": [
+						"The Demon Grinder can move through the space of any Large or smaller creature. When it does, the creature must succeed on a {@dc 11} Dexterity saving throw or take 22 ({@damage 4d10}) bludgeoning damage and be knocked {@condition prone}. If the creature was already {@condition prone}, it takes an extra 22 ({@damage 4d10}) bludgeoning damage. This trait can't be used against a particular creature more than once each turn."
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Demon Grinder rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew; grants 3/4 cover - +5 AC, +5 DEX saves)",
+					"entries": [
+						"Drive and steer the Demon Grinder. User - Shang Tsung."
+					]
+				},
+				{
+					"name": "Soul Furnace - HELM",
+					"entries": [
+						"As a bonus action, you can feed 1 soul coin into the machine or use another source of soul essence to achieve one of the following effects:",
+						"-  increase the machine's speed by 20 ft. until the end of the character's next turn;",
+						"-  the next time a weapon on the war machine deals damage before the end of the character's next turn, it deals an additional 10 force damage; and",
+						"-  the infernal war machine regains 20 hit points."
+					]
+				},
+				{
+					"name": "Action Station - SHREDDER (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 60 ft., one target. {@h}18 ({@damage 4d8}) piercing and 10 ({@damage 2d8 + 1}) damage. This weapon crushes metal debris and flings the shrapnel towards the target. User - Rutterkin."
+					]
+				},
+				{
+					"name": "Action Station - WEB SHOOTER (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves; Recharge 5-6)",
+					"entries": [
+						"Any creature and/or war machine has to make a DC13 STR (Athletics) or DEX (Acrobatics) check. On a failure, the target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a DC13 STR check, bursting through the webbing on a success. The webbing can be destroyed (5 hp; AC 10; vulnerable to fire damage; immune to bludgeoning, poison, psychic damage). If a war machine is {@condition restrained}, the driver can use its action to make the war machine attempt the STR check. The webbing will continue pulling the {@condition restrained} vehicle and/or creature on the Demon Grinder's vehicle turn. User - Rutterkin."
+					]
+				},
+				{
+					"name": "Action Station - ELEMENTALLY AMPLIFIED SPIKE FLINGER (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 90 ft., one target. {@h}10 ({@damage 2d8 + 1}) piercing damage and 9 ({@damage 2d8}) fire damage. An elemental is chained to the surface of the vehicle and its appears its' power is being drawn into this weapon. User - Rutterkin."
+					]
+				},
+				{
+					"name": "Boring Stuff",
+					"entries": [
+						"Using a bonus action you can cause the infernal war machine to take the Dash or Disengage action while the vehicle's engine is running."
+					]
+				},
+				{
+					"name": "Action Station - HOOKS AND CHAINS",
+					"entries": [
+						"Four (4) Rutterkin are hanging outside the Demon Grinder readying their actions to board the PC's Demon Grinder."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			]
+		},
+		{
+			"name": "Hell's Belle (Geryon's Red Custom)",
+			"shortName": "Hell's Belle",
+			"source": "AHGoSM",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				21,
+				{
+					"ac": 16,
+					"condition": "while motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "20 (damage threshold 5, mishap threshold 10)"
+			},
+			"speed": {
+				"walk": 140
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+1",
+				"dex": "+5",
+				"con": "+1",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Aerodynamic Armour",
+					"entries": [
+						"Opportunity attacks provoked by the war machine are made at disadvantage."
+					]
+				},
+				{
+					"name": "Jump",
+					"entries": [
+						"If the Hell's Belle moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement. "
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Hell's Belle falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Hell's Belle weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Carry Capacity.",
+					"entries": [
+						"2 medium creatures within the machine. 1 medium creature outside the machine."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew, grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Drive and steer the Hell's Belle. User - Bulezau."
+					]
+				},
+				{
+					"name": "Action Station - ROCKET LAUNCHER (Requires 1 Crew, grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Ammunition: 3 loads. The Weapon launches a load of rockets to a point within 100 feet. Each creature and vehicle in a 20 ft. radius sphere centered on that point must make a DC10 DEX save, taking 28 ({@damage 8d6}) fire damage plus 14 ({@damage 4d6}) thunder damage on a failed one, or half as much damage on a successful one. User - Bulezau."
+					]
+				},
+				{
+					"name": "Exterior Action Station - Hooks and Chains",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20 ft., one target. {@h}This weapon hooks onto the exterior of another vehicle to allow boarding to occur. For boarding to occur, the vehicle must be travelling adjacent to the one being boarded for the duration of travel. User - Maw Demon."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sick Jukes",
+					"entries": [
+						"If the Hell's Belle is able to move, the driver can use its reaction to grant the Hell's Belle advantage on a DEX saving throw."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"F",
+				"T"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Demon Grinder (Custom)",
+			"shortName": "Demon Grinder",
+			"source": "AHGoSM",
+			"size": "G",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"special": "200 (damage threshold 10, mishap threshold 20)"
+			},
+			"speed": {
+				"walk": 100
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+4",
+				"dex": "+0",
+				"con": "+4",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Cargo Capacity",
+					"entries": [
+						"1 ton."
+					]
+				},
+				{
+					"name": "Carrying Capacity",
+					"entries": [
+						"4 medium creatures within the machine. 4 medium creatures outside the machine."
+					]
+				},
+				{
+					"name": "Crushing Wheels",
+					"entries": [
+						"The Demon Grinder can move through the space of any Large or smaller creature. When it does, the creature must succeed on a {@dc 11} Dexterity saving throw or take 22 ({@damage 4d10}) bludgeoning damage and be knocked {@condition prone}. If the creature was already {@condition prone}, it takes an extra 22 ({@damage 4d10}) bludgeoning damage. This trait can't be used against a particular creature more than once each turn."
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Demon Grinder rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew; grants 3/4 cover - +5 AC, +5 DEX saves)",
+					"entries": [
+						"Drive and steer the Demon Grinder."
+					]
+				},
+				{
+					"name": "Soul Furnace - HELM",
+					"entries": [
+						"As a bonus action, you can feed 1 soul coin into the machine or use another source of soul essence to achieve one of the following effects:",
+						"-  increase the machine's speed by 20 ft. until the end of the character's next turn;",
+						"-  the next time a weapon on the war machine deals damage before the end of the character's next turn, it deals an additional 10 force damage; and",
+						"-  the infernal war machine regains 20 hit points."
+					]
+				},
+				{
+					"name": "Action Station - MILEY'S WRECKING BALL (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}40 ({@damage 8d8 + 4}) bludgeoning damage. Double the damage if the target is an object or a structure."
+					]
+				},
+				{
+					"name": "Action Station - CHOMPER (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}25 ({@damage 6d6 + 4}) piercing damage. A target reduced to 0 hit points by this damage is ground to bits and spit out through pipes on both sides of the Demon Grinder. Any nonmagical items the target was holding or are carrying are destroyed as well."
+					]
+				},
+				{
+					"name": "Action Station - INFERNAL HARPOON (Requires 1 crew; grants 1/2 cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 120 ft., one target. {@h}13 ({@damage 3d8}) piercing damage. This weapon can be further fueled by the magic powers of the user. The user can use their action and expend a spell slot to imbue the fiendish harpoon before launching. If they choose to do so, add {@damage 1d8} magic damage per level spell slot expended. Additionally, on a hit, the chained harpoon penetrates the armour of the adjacent vehicle or creature. It will be permanently leashed unless an action is taken to remove, destroy, or otherwise disconnect the harpoon from its' chain."
+					]
+				},
+				{
+					"name": "Boring Stuff",
+					"entries": [
+						"Using a bonus action you can cause the infernal war machine to take the Dash or Disengage action while the vehicle's engine is running."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Hell's Belle (Ice Devil's Custom)",
+			"shortName": "Hell's Belle",
+			"source": "AHGoSM",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				21,
+				{
+					"ac": 16,
+					"condition": "while motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "20 (damage threshold 5, mishap threshold 10)"
+			},
+			"speed": {
+				"walk": 140
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+1",
+				"dex": "+5",
+				"con": "+1",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Aerodynamic Armour",
+					"entries": [
+						"Opportunity attacks provoked by the war machine are made at disadvantage."
+					]
+				},
+				{
+					"name": "Jump",
+					"entries": [
+						"If the Hell's Belle moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement. "
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Hell's Belle falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Hell's Belle weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Carry Capacity.",
+					"entries": [
+						"2 medium creatures within the machine. 1 medium creature outside the machine."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew, grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Drive and steer the Hell's Belle. User - Bulezau."
+					]
+				},
+				{
+					"name": "Action Station - BILE SPEWER (Requires 1 Crew, grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Acid shoots out of a demonic maw at the rear of the Hell's Belle in a 60 ft line that is 5 ft wide. Each creature in the line must make a DC15 DEX saving throw, taking 18 ({@damage 4d8}) acid damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 HP by this damage is dissolved, leaving behind any objects it was carrying or wielding. User - Bulezau."
+					]
+				},
+				{
+					"name": "Exterior Action Station - Hooks and Chains",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20 ft., one target. {@h}This weapon hooks onto the exterior of another vehicle to allow boarding to occur. For boarding to occur, the vehicle must be travelling adjacent to the one being boarded for the duration of travel. User - Rutterkin."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sick Jukes",
+					"entries": [
+						"If the Hell's Belle is able to move, the driver can use its reaction to grant the Hell's Belle advantage on a DEX saving throw."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"A"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Bulezau (Hell's Belle, Blue Operator)",
+			"source": "AHGoSM",
+			"page": 131,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d8 + 21"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 17,
+			"int": 8,
+			"wis": 9,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 60 ft."
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Rotting Presence",
+					"entries": [
+						"When any creature that isn't a demon starts its turn within 30 feet one or more bulezaus, that creature must succeed on a {@dc 13} Constitution saving throw or take {@dice 1d6} necrotic damage plus 1 necrotic damage for each bulezau within 30 feet of it."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The bulezau's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Barbed Tail",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned} until the disease ends. While {@condition poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Bulezau",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bulezau",
+										"entries": [
+											"Diseased manifestations of animalistic rage, bulezaus embody the violence of nature. Across the Abyss, bulezaus lurk in deep canyons and lofty crags, and many find a place in the ranks of the demon lords' armies, serving as foot soldiers in the Abyss's endless warring."
+										]
+									},
+									{
+										"name": "Bloodlust",
+										"type": "entries",
+										"entries": [
+											"Bulezaus crave violence. Their eagerness to kill and willingness to die make them common members of any demon lord's entourage. When not being corralled by larger and tougher demons, bulezaus gather into scrabbling mobs, wrestling and fighting among themselves until a better target comes along or until a stronger demon bullies them into subservience."
+										]
+									},
+									{
+										"name": "Repulsive",
+										"type": "entries",
+										"entries": [
+											"Disfiguring ailments plague bulezaus: crusted eyes, maggots wriggling in open sores, and a reek of rotten meat that follows them wherever they go."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Bulezau.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Bulezau.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bulezau.mp3?v=1.115.0"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Rutterkin (Demon Grinder, Red Boarder)",
+			"source": "AHGoSM",
+			"page": 136,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d8 + 15"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 17,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands Abyssal but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Crippling Fear",
+					"entries": [
+						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. On a failed save, the creature becomes {@condition frightened} for 1 minute. While {@condition frightened} in this way, the creature is {@condition restrained}. At the end of each of the {@condition frightened} creature's turns, it can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell wish} spell. (See notes)"
+					]
+				}
+			],
+			"fluff": {
+				"name": "Rutterkin",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rutterkin",
+										"entries": [
+											"The rutterkins, a breed of warped demon, roam the Abyss in mobs that constantly search for intruders to surround and devour."
+										]
+									},
+									{
+										"name": "Abyssal Defenders",
+										"type": "entries",
+										"entries": [
+											"Rutterkins protect the Abyss from non-demons. When they spot any interlopers, they gather in a crowd and surge forward, emitting a wave of fear in advance of their attacks that leaves their victims terrified and rooted in place."
+										]
+									},
+									{
+										"name": "Warping Plague",
+										"type": "entries",
+										"entries": [
+											"Creatures bitten by rutterkins are exposed to a terrible disease that infects them with the corrupting influence of the Abyss. Victims that succumb to the disease experience tremendous pain as their bodies become disfigured, flesh twisting around the bones, until they transform to join the mass of abyssal wretches that follow in the wake of the rutterkin mob that laid them low."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Rutterkin.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Rutterkin.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/rutterkin.mp3?v=1.115.0"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"CS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Maw Demon (Hell's Belle, Red Boarder)",
+			"source": "AHGoSM",
+			"page": 137,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 8,
+			"con": 13,
+			"int": 5,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands Abyssal but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When it reduces a creature to 0 hit points with a melee attack on its turn, the maw demon can take a bonus action to move up to half its speed and make a bite attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Maw Demon",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Demon lords create lesser demons for the purpose of spreading chaos and terror throughout the multiverse."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Maw Demon",
+										"entries": [
+											"Maw demons share Yeenoghu's ceaseless hunger for carnage and mortal flesh. After a maw demon rests for 8 hours, anything devoured by it is transported directly into the Lord of Savagery's gullet.",
+											"Maw demons appear among gnoll war bands, usually summoned as part of ritual offerings of freshly slain humanoids made to Yeenoghu. The gnolls don't command them, but these demons accompany the war band and attack whatever creatures the gnolls fall upon."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Maw Demon.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Maw Demon.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/maw-demon.mp3?v=1.115.0"
+			},
+			"traitTags": [
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"CS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Maw Demon (Hell's Belle, Blue Boarder)",
+			"source": "AHGoSM",
+			"page": 137,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 8,
+			"con": 13,
+			"int": 5,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands Abyssal but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When it reduces a creature to 0 hit points with a melee attack on its turn, the maw demon can take a bonus action to move up to half its speed and make a bite attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"name": "Maw Demon",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Demon lords create lesser demons for the purpose of spreading chaos and terror throughout the multiverse."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Maw Demon",
+										"entries": [
+											"Maw demons share Yeenoghu's ceaseless hunger for carnage and mortal flesh. After a maw demon rests for 8 hours, anything devoured by it is transported directly into the Lord of Savagery's gullet.",
+											"Maw demons appear among gnoll war bands, usually summoned as part of ritual offerings of freshly slain humanoids made to Yeenoghu. The gnolls don't command them, but these demons accompany the war band and attack whatever creatures the gnolls fall upon."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Maw Demon.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/VGM/Maw Demon.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/maw-demon.mp3?v=1.115.0"
+			},
+			"traitTags": [
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"CS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Rutterkin (Demon Grinder, Red Operator)",
+			"source": "AHGoSM",
+			"page": 136,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d8 + 15"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 17,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands Abyssal but can't speak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Crippling Fear",
+					"entries": [
+						"When a creature that isn't a demon starts its turn within 30 feet of three or more rutterkins, it must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours. On a failed save, the creature becomes {@condition frightened} for 1 minute. While {@condition frightened} in this way, the creature is {@condition restrained}. At the end of each of the {@condition frightened} creature's turns, it can repeat the saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell wish} spell. (See notes)"
+					]
+				}
+			],
+			"fluff": {
+				"name": "Rutterkin",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rutterkin",
+										"entries": [
+											"The rutterkins, a breed of warped demon, roam the Abyss in mobs that constantly search for intruders to surround and devour."
+										]
+									},
+									{
+										"name": "Abyssal Defenders",
+										"type": "entries",
+										"entries": [
+											"Rutterkins protect the Abyss from non-demons. When they spot any interlopers, they gather in a crowd and surge forward, emitting a wave of fear in advance of their attacks that leaves their victims terrified and rooted in place."
+										]
+									},
+									{
+										"name": "Warping Plague",
+										"type": "entries",
+										"entries": [
+											"Creatures bitten by rutterkins are exposed to a terrible disease that infects them with the corrupting influence of the Abyss. Victims that succumb to the disease experience tremendous pain as their bodies become disfigured, flesh twisting around the bones, until they transform to join the mass of abyssal wretches that follow in the wake of the rutterkin mob that laid them low."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Rutterkin.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Rutterkin.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/rutterkin.mp3?v=1.115.0"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"CS"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"poisoned",
+				"restrained"
+			]
+		},
+		{
+			"name": "Bulezau (Hell's Belle, Red Operator)",
+			"source": "AHGoSM",
+			"page": 131,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d8 + 21"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 17,
+			"int": 8,
+			"wis": 9,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 60 ft."
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Rotting Presence",
+					"entries": [
+						"When any creature that isn't a demon starts its turn within 30 feet one or more bulezaus, that creature must succeed on a {@dc 13} Constitution saving throw or take {@dice 1d6} necrotic damage plus 1 necrotic damage for each bulezau within 30 feet of it."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The bulezau's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Barbed Tail",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned} until the disease ends. While {@condition poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Bulezau",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bulezau",
+										"entries": [
+											"Diseased manifestations of animalistic rage, bulezaus embody the violence of nature. Across the Abyss, bulezaus lurk in deep canyons and lofty crags, and many find a place in the ranks of the demon lords' armies, serving as foot soldiers in the Abyss's endless warring."
+										]
+									},
+									{
+										"name": "Bloodlust",
+										"type": "entries",
+										"entries": [
+											"Bulezaus crave violence. Their eagerness to kill and willingness to die make them common members of any demon lord's entourage. When not being corralled by larger and tougher demons, bulezaus gather into scrabbling mobs, wrestling and fighting among themselves until a better target comes along or until a stronger demon bullies them into subservience."
+										]
+									},
+									{
+										"name": "Repulsive",
+										"type": "entries",
+										"entries": [
+											"Disfiguring ailments plague bulezaus: crusted eyes, maggots wriggling in open sores, and a reek of rotten meat that follows them wherever they go."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Bulezau.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Bulezau.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bulezau.mp3?v=1.115.0"
+			},
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			]
+		},
+		{
+			"name": "Firajian (The Leviathan)",
+			"shortName": "Firajian",
+			"source": "AHGoSM",
+			"size": "G",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				20,
+				{
+					"ac": 18,
+					"condition": "when motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "250 (damage threshold 15, mishap threshold 30)"
+			},
+			"speed": {
+				"fly": 750,
+				"canHover": false,
+				"swim": 750
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+5",
+				"dex": "+1",
+				"con": "+5"
+			},
+			"passive": 5,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapon attacks that aren't from a vessel"
+				}
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Cargo Capacity",
+					"entries": [
+						"100 tons."
+					]
+				},
+				{
+					"name": "Carrying Capacity",
+					"entries": [
+						"10 crew; 30 medium sized passengers; 3 large machines; 1 gargantuan machine."
+					]
+				},
+				{
+					"name": "Ever-Full Sails",
+					"entries": [
+						"These billowing sails are woven from cloud-stuff drawn from the Elemental Plane of Air and powered by the Leviathan Core. Wind whips and whistles around them when the core is in place, allowing the Firajian to move regardless of weather conditions."
+					]
+				},
+				{
+					"name": "Vigilant Watch",
+					"entries": [
+						"With the core in place, a magical aura emits from the Firajian's foredeck where the astral beast's eyes once were situated and washes over the area surrounding the ship. Invisible creatures are visible while on the ship or within 120 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew; grants total cover, cannot be targeted, may be affected by AOE spells)",
+					"entries": [
+						"Drive and steer the Firajian. Requires the Leviathan Core. Refer to the Helmsperson's Bond below for further details."
+					]
+				},
+				{
+					"name": "Action Station - LAY WASTE (Requires 1 crew; grants total cover, cannot be targeted, may be affected by AOE spells)",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 500/1500 ft., one target. {@h}26 ({@damage 4d12}) force damage plus 13 ({@damage 2d12}) force damage per spell slot expended. Located in the ships' bridge adjacent to the Helm, a can use their innate magic to fuel the ship's primary weapon. The user takes their action to expend a spellslot to launch a bolt of firey energy towards a target. This weapon pierces through all protective magical wards and barriers."
+					]
+				},
+				{
+					"name": "Action Station - RUNE PIERCER (Requires 1 crew; grants 1/2 cover, +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 500/1500 ft., one target. {@h}13 ({@damage 2d12}) piercing damage. There is one (1) rune piercer available on the port and starboard sides of the main deck, and one (1) available on the center of the foredeck. Total of three (3)."
+					]
+				}
+			],
+			"mythicHeader": [
+				"HELMSPERSON'S BOND. The party member connected to the Leviathan's helm has a special connection to the ship and are subject to the following effects and abilities."
+			],
+			"mythic": [
+				{
+					"name": "Psychic Connection",
+					"entries": [
+						"Each time the ship takes damage, the helmsperson must succeed a DC13 WIS saving throw or take 17 ({@damage 3d10}) psychic damage."
+					]
+				},
+				{
+					"name": "Empowered Spikes",
+					"entries": [
+						"If the helmsperson is a spellcaster, they can send a surge of magical energy to one of the Rune Piercers and charge it with magical energy. The helmsperson may use their bonus action and expend a spell slot of any level on any one Rune Piercer. If the Rune Piercer then hits with an attack, the target takes an additional {@damage 1d12} damage per level of the spell slot expended and becomes magical damage; spikes imbued with this magic will also require creatures within a  15 ft. radius of the target to make a DC11 DEX save and take full damage on a failure or half damage on a successful save. This effect will last until the start of the helmsperson's next turn."
+					]
+				},
+				{
+					"name": "Death Vessel",
+					"entries": [
+						"This ship carries with it an aura of dread from the skeleton of the astral beast that forms its' hull. As an bonus action, the helmsperson may create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make {@dc 14} Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
+					]
+				}
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Vallanee (The Dreadnought)",
+			"shortName": "Vallanee",
+			"source": "AHGoSM",
+			"size": "G",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				20,
+				{
+					"ac": 18,
+					"condition": "when motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "200 (damage threshold 15, mishap threshold 30)"
+			},
+			"speed": {
+				"fly": 750,
+				"canHover": false,
+				"swim": 750
+			},
+			"str": 13,
+			"dex": 17,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+1",
+				"dex": "+3",
+				"con": "+1"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 180 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapon attacks that aren't from a vessel"
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				}
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Cargo Capacity",
+					"entries": [
+						"10 tons."
+					]
+				},
+				{
+					"name": "Carrying Capacity",
+					"entries": [
+						"10 crew; 30 medium sized passengers; 3 large machines; 1 gargantuan machine."
+					]
+				},
+				{
+					"name": "Billowing Soul Engines",
+					"entries": [
+						"The Vallanee is powered by six rocket engines fueled by souls of the dead. The suffering and pain of the souls are audibly heard as they are consumed to propel the vessel forward."
+					]
+				},
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness does not impede the vessel's darkvision."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew; grants total cover, cannot be targeted, may be affected by AOE spells)",
+					"entries": [
+						"Drive and steer the Vallanee. Requires a huge devil."
+					]
+				},
+				{
+					"name": "Action Station - HELLFIRE RAY (Requires 1 crew; grants total cover, cannot be targeted, may be affected by AOE spells; Recharge: 4-6)",
+					"entries": [
+						"The Vallanee launches a firey beam in a 500 ft line that is 20 ft wide. Each creature of vessel in that line must make a DC13 DEX save or take 65 ({@damage 10d12}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Action Station - SPIKE HURLER (Requires 1 crew; grants 1/2 cover, +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 500/1500 ft., one target. {@h}52 ({@damage 8d12}) piercing damage. There are two (2) Spike Hurlers available on the port and starboard sides of the ship - four (4) total."
+					]
+				},
+				{
+					"name": "Action Station - INFERNAL CANNON (Requires 1 crew; grants 1/2 cover, +2 AC, +2 DEX saves)",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 800/2400 ft., one target. {@h}26 ({@damage 3d8 + 13}) bludgeoning damage. There is one (10 large munitions swiveling on the foredeck of the ship. When the hard ceramic canisters containing the stygian sea smash into an enemy ship, they deal an extra {@damage 1d10} cold damage. The ship is also considered Grappled ({@dc 17} escape) until they escape."
+					]
+				}
+			],
+			"traitTags": [
+				"Devil's Sight"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Hellmantis (Shang Tsung)",
+			"shortName": "Hellmantis",
+			"source": "AHGoSM",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"Vehicle"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				19,
+				{
+					"ac": 17,
+					"condition": "while motionless",
+					"braces": true
+				}
+			],
+			"hp": {
+				"special": "60 (damage threshold 10, mishap threshold 20)"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"save": {
+				"str": "+1",
+				"dex": "+5",
+				"con": "+1",
+				"int": "-5",
+				"wis": "-5",
+				"cha": "-5"
+			},
+			"passive": 5,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Aerodynamic Armour",
+					"entries": [
+						"Opportunity attacks provoked by the war machine are made at disadvantage."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The Hellmantis can leap a distance of up to 60 feet, provoking opportunity attacks as normal."
+					]
+				},
+				{
+					"name": "Prone Deficiency",
+					"entries": [
+						"If the Hellmantis falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Hellmantis' weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Carry Capacity.",
+					"entries": [
+						"1 medium creature within the machine."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Action Station - HELM (Requires 1 crew, grants Half Cover - +2 AC, +2 DEX saves)",
+					"entries": [
+						"Drive and steer the Hell's Belle."
+					]
+				},
+				{
+					"name": "Action Station - WEAPON ARMS",
+					"entries": [
+						"The Hellmantis makes two weapon attacks. {@atk mw} {@hit 9} to hit, reach 10 ft. {@h}28 ({@damage 6d6 + 8}) slashing damage"
+					]
+				},
+				{
+					"name": "Exterior Action Station - Hooks and Chains",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20 ft., one target. {@h}This weapon hooks onto the exterior of another vehicle to allow boarding to occur. For boarding to occur, the vehicle must be travelling adjacent to the one being boarded for the duration of travel."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			]
+		},
+		{
+			"name": "Alrina Evoker",
+			"shortName": "Alrina",
+			"source": "AHGoSM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"special": "82"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 20,
+			"save": {
+				"str": "-1",
+				"dex": "+2",
+				"con": "+1",
+				"int": "+7",
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"deception": "+9",
+				"perception": "+9",
+				"performance": "+13",
+				"persuasion": "+9",
+				"sleight of hand": "+6",
+				"survival": "+5"
+			},
+			"senses": [
+				"Devilsight 120 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"All languages"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The evoker's innate spellcasting ability is Intelligence (spellsave DC15)."
+					],
+					"will": [
+						"{@spell plane shift} (self only)",
+						"{@spell teleport} (self only)"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The evoker is a 12th level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks. The evoker has the following wizard spells prepared."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell ice storm}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell cone of cold}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell wall of ice}"
+							],
+							"slots": 0
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Sculpt Spells",
+					"entries": [
+						"When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1 + spell level. These creatures automatically succeed on their saving throws against the spell. If the successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff.",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used two hands."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Dirvex Warlock",
+			"shortName": "Dirvex",
+			"source": "AHGoSM",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Tiefling"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with Mage Armour",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 16,
+			"cha": 22,
+			"save": {
+				"cha": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+9",
+				"deception": "+10",
+				"history": "+9",
+				"persuasion": "+10",
+				"religion": "+9"
+			},
+			"senses": [
+				"Devil's Sight 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that are not silvered"
+				}
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Dirvex's spellcasting ability is Intelligence (spell save DC13). It can innately cast the following spells."
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell false life}",
+						"{@spell levitate}",
+						"{@spell mage armor} (self only)",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell finger of death}",
+							"{@spell plane shift}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The warlock is a 17th level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, +10 to hit with spell attacks)."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"5": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell burning hands}",
+								"{@spell flame strike}",
+								"{@spell hellish rebuke}",
+								"{@spell magic circle}",
+								"{@spell mass suggestion}",
+								"{@spell scorching ray}",
+								"{@spell scrying}",
+								"{@spell stinking cloud}",
+								"{@spell wall of fire}"
+							],
+							"slots": 5,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark One's Own Luck",
+					"entries": [
+						"When the warlock makes an ability check or saving throw, it can add a {@dice d10} to the roll. It can do this after the roll is made but before any of the roll's effects occur."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage plus 10 ({@damage 3d6}) fire damage."
+					]
+				}
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
